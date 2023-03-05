@@ -1,31 +1,69 @@
 .message {
-
+    max-width: 575px;
 }
 
 .imageAndText {
-
+    display: grid;
+    grid-template-areas: "text img";
+    justify-content: end;
+    grid-gap: 12px;
+    align-items: end;
 }
 
 .imageAndText img {
-
+    grid-area: img;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
 }
 
 .text {
-
+    grid-area: text;
+    background: #0066CC;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: right;
+    border-radius: 8px;
+    padding: 8px 13px;
+    position: relative;
 }
 
 .text:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -11px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #0066cc;
+    border-right: 16px solid transparent;
 
 }
 
 .name {
-
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .messageText {
-
+    grid-area: messageText;
+    white-space: pre-wrap;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .time {
-
+    text-align: right;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin: 4px 8px 0 0;
 }

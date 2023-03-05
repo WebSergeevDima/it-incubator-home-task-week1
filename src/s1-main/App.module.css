@@ -1,15 +1,27 @@
 .App {
     --header_height: 60px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
+    width: 100%;
 }
 
 .hw {
+    border-top: 1px #D9D9D9 solid;
+    border-bottom: 1px #D9D9D9 solid;
+    padding: 24px 70px 32px 70px;
+}
+.hw > div {
+    margin: 0 0 0 auto;
+}
 
+.hw > div > div:nth-child(odd) {
+    margin: 0 0 24px auto;
 }
 
 .hwTitle {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
+    color: #000000;
+    margin: 10px 70px;
 }
