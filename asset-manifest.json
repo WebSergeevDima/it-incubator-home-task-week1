@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/it-incubator-home-task-week1/static/css/main.e38eecc4.css",
+    "main.js": "/it-incubator-home-task-week1/static/js/main.0a0105ab.js",
+    "static/js/787.66cb4309.chunk.js": "/it-incubator-home-task-week1/static/js/787.66cb4309.chunk.js",
+    "index.html": "/it-incubator-home-task-week1/index.html",
+    "main.e38eecc4.css.map": "/it-incubator-home-task-week1/static/css/main.e38eecc4.css.map",
+    "main.0a0105ab.js.map": "/it-incubator-home-task-week1/static/js/main.0a0105ab.js.map",
+    "787.66cb4309.chunk.js.map": "/it-incubator-home-task-week1/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e38eecc4.css",
+    "static/js/main.0a0105ab.js"
+  ]
+}
