@@ -32,15 +32,15 @@
 }
 
 .text:after {
-    content: '';
-    display: block;
-    position: absolute;
-    right: -11px;
+    border-bottom: 16px solid #06c;
+    border-right: 17px solid transparent;
     bottom: 0;
-    width: 0;
+    content: "";
+    display: block;
     height: 0;
-    border-bottom: 15px solid #0066cc;
-    border-right: 16px solid transparent;
+    position: absolute;
+    right: -10px;
+    width: 0;
 
 }
 
