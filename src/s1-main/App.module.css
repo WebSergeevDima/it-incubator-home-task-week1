@@ -14,7 +14,7 @@
     margin: 0 0 0 auto;
 }
 
-.hw > div > div:nth-child(odd) {
+#hw > div > div:nth-child(odd) {
     margin: 0 0 24px auto;
 }
 
