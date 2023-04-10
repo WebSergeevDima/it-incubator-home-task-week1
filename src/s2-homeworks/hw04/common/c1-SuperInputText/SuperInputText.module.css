@@ -16,7 +16,16 @@
 }
 
 .superInput {
-
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 0 24px;
 }
 
 .errorInput {
