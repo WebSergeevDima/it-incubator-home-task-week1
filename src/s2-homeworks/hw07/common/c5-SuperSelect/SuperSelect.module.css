@@ -1,9 +1,10 @@
 .select {
-    width: 165px;
+    width: 180px;
     background: #FFFFFF;
     border: 1px solid #C2C2C2;
     border-radius: 2px;
     cursor: pointer;
+    height: 24px;
 }
 
 .select:focus {
