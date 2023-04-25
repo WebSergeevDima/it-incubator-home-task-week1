@@ -12,6 +12,10 @@
 .buttonsContainer {
     margin: 0 0 18px 0;
     text-align: right;
+    display: grid;
+    grid-template-columns: 132px 132px 132px;
+    justify-content: end;
+    grid-gap: 15px;
 }
 
 .container {
