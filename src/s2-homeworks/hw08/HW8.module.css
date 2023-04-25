@@ -5,19 +5,33 @@
 }
 
 .users {
+    border-collapse: collapse;
+    width: 100%;
 }
 
 .buttonsContainer {
+    margin: 0 0 18px 0;
+    text-align: right;
 }
 
 .container {
 }
 
 .thead {
+    background: #E5E5E5;
+    font-weight: 600;
 }
 
-.nameCol {
+.nameCol,
+.nameCol + td   {
+    height: 57px;
+    border-bottom: 1px #E5E5E5 solid;
+    padding: 0 17px;
+    font-size: 14px;
+    line-height: 16px;
 }
+
 
 .ageCol {
+    font-weight: 600;
 }
