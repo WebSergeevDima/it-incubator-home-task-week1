@@ -6,7 +6,7 @@ type ActionType =
 
 export const homeWorkReducer = (state: UserType[], action: ActionType): UserType[] => { // need to fix any
 
-    const sortName = ( a: UserType, b: UserType ) => {
+    const sortNameUp = ( a: UserType, b: UserType ) => {
         if ( a.name < b.name ){
             return -1;
         }
@@ -15,11 +15,11 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
         }
         return 0;
     }
-    const sortAge = ( a: UserType, b: UserType ) => {
-        if ( a.age > b.age ){
+    const sortAgeDown = ( a: UserType, b: UserType ) => {
+        if ( a.name > b.name ){
             return -1;
         }
-        if ( a.age < b.age ){
+        if ( a.name < b.name ){
             return 1;
         }
         return 0;
@@ -30,10 +30,10 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
         case 'sort': { // by name
 
             if(action.payload === 'up') {
-                return [...state].sort(sortName); // need to fix
+                return [...state].sort(sortNameUp); // need to fix
             }
 
-            return [...state].sort(sortAge); // need to fix
+            return [...state].sort(sortAgeDown); // need to fix
 
         }
         case 'check': {
