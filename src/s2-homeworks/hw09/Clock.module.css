@@ -1,7 +1,16 @@
 .buttonsContainer {
+    margin: 20px -10px 0 -10px;
+    display: flex;
 }
 
+.buttonsContainer > button {
+    margin: 0 10px;
+    width: 84px;
+}
+
+
 .clock {
+    cursor: context-menu;
 }
 
 .watch {
@@ -11,4 +20,10 @@
 }
 
 .more {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
