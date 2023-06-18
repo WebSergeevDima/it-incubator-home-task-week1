@@ -15,12 +15,22 @@ import {Loader} from './Loader'
 
 const HW10 = () => {
     // useSelector, useDispatch // пишет студент
-    const isLoading = false
+    let isLoading = useSelector((state: any) => {
+        return state.loading.isLoading;
+    });
+
+    const dispatch = useDispatch();
 
     const setLoading = () => { // пишет студент // показать крутилку на 1,5 секунд
         // dispatch
-
+        const action = loadingAC(!isLoading);
+        dispatch(action);
+        const timerLoading = setTimeout(() => {
+            const action = loadingAC(isLoading);
+            dispatch(action);
+        }, 1500);
         // setTimeout
+
     }
 
     return (
